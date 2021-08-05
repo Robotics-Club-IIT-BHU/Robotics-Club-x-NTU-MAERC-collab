@@ -15,13 +15,13 @@ p.setGravity(0, 0, 0)
 p.setJointMotorControl2(bodyIndex=robot,
                         jointIndex=0,
                         controlMode=p.POSITION_CONTROL,
-                        targetPosition=0,
+                        targetPosition=0, #desired value
                         force=500)
 
 p.setJointMotorControl2(bodyIndex=robot,
                         jointIndex=1,
-                        controlMode=p.POSITION_CONTROL,
-                        targetPosition=0,
+                        controlMode=p.POSITION_CONTROL, 
+                        targetPosition=0, #desired value
                         force=500)
-for i in range(100000000):
+for i in range(1000000):
     p.stepSimulation()
