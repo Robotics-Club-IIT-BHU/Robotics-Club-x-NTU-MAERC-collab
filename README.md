@@ -28,7 +28,7 @@
 
 #### Excited to see the workshop structure??? Here it is - [Workshop Details](Webinar_Details--.pdf)
 ***
-#### Here is the link to the presentation for logoistics - [Logistics ppt](https://docs.google.com/presentation/d/1JEDMQ1MVdhzHvBFFwcCsBR0ii0pNqlAMPASn4Munbjo/edit?usp=sharing)
+#### Here is the link to the presentation for logistics - [Logistics ppt](https://docs.google.com/presentation/d/1JEDMQ1MVdhzHvBFFwcCsBR0ii0pNqlAMPASn4Munbjo/edit?usp=sharing)
 
 ***
 ***
