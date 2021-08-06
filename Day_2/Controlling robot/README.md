@@ -47,8 +47,9 @@ Here theta_1 and theta_2 can be set as desired for both the joints.
 You can refer to the demo code attached to understand this mode better.
 
 ##### VELOCITY_CONTROL
-Here joint motor is on or enabled while the control loop is disabled. You can feed in the desired velocity along with the torque limits .When that maximum torque/force is very high, the target velocity is instantaneously reached and the joint operates in velocity control, otherwise it operates at the specified torque/force until the desired target velocity is reached.
-
+Here joint motor is on or enabled while the control loop is disabled. You can feed in the desired velocity along with the torque limits .When that maximum torque/force is very high, the target velocity is instantaneously reached and the joint operates in velocity control, otherwise it operates at the specified torque/force until the desired target velocity is reached. <p align="center">
+<img src="https://user-images.githubusercontent.com/88087656/128541414-9432d1c0-e031-44f0-b544-d6da7edca863.gif" width="350" height="300"/>
+ <p />
 
 
 
