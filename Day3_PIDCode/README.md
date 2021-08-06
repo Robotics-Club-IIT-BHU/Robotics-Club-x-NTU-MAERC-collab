@@ -1,9 +1,19 @@
 ## PID CONTROL CODE FOR LINE FOLLOWING BOT
 
+### We congaratulate you that you attended the workshop and learnt some of the awesome concepts of PID
+***
+<p align="center">
+ <img  width="400" height="400" src="https://cloudblogs.microsoft.com/industry-blog/wp-content/uploads/industry/2019/06/Automotive-image_Blog_R2-a1.png">
+ <p align="center">
+ <i>Great that you understood all</i><br> 
+</p>
+
+#### Here is the link to the presentation - [Pid code](https://docs.google.com/presentation/d/1dl2l8goXGt8gAWrh70IBe66mzWzi2OMd6TNtHwAumVg/edit?usp=sharing)
+
 # Autonomous Car Challenge
 
 <p align="center">
- <img  width="400" height="400" src="https://cloudblogs.microsoft.com/industry-blog/wp-content/uploads/industry/2019/06/Automotive-image_Blog_R2-a1.png">
+ <img  width="400" height="400" src="https://sayingimages.com/wp-content/uploads/expert-level-good-job-meme.jpg">
  <p align="center">
  <i>car control</i><br> 
 </p>
