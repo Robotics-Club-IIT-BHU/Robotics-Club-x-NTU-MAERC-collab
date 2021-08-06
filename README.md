@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
- <img  width="400" height="600" src="Workshop_Logo.jpeg">
+ <img  width="400" height="600" src="Workshop_Logo.jpg">
 </p>
 
 ***
