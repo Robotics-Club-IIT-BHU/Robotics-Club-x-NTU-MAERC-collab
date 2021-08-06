@@ -38,6 +38,18 @@ setMotorControl2 is an import function which is used to control the motors in ou
 ##### POSITION_CONTROL 
 This happens when the joint motor is enabled as well as the control loop.You simply need to specify the position you want a particular joint (specified by joint unique ID) to be at. 
 
+For example- Take the case of a 2R robot arm <p align="center">
+![2r_arm](https://user-images.githubusercontent.com/88087656/128523942-1121220e-7486-4950-a6c7-faaf451c0432.png)
+<p />
+
+Here theta_1 and theta_2 can be set as desired for both the joints.
+###### CAUTION- The position needs to be in radians since the joints here are revolute. We can use position in meters for prismatic joint.
+You can refer to the demo code attached to understand this mode better.
+
+##### VELOCITY_CONTROL
+Here joint motor is on or enabled while the control loop is disabled. You can feed in the desired velocity along with the torque limits .When that maximum torque/force is very high, the target velocity is instantaneously reached and the joint operates in velocity control, otherwise it operates at the specified torque/force until the desired target velocity is reached.
+
+
 
 
 
