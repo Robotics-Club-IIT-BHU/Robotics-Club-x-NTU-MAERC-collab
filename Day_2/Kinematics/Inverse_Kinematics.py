@@ -4,7 +4,7 @@ import os
 import time
 import math
 
-file_name = "2R_Robotic_Arm.urdf"
+file_name = "2R_Robotic_Arm.urdf"  # Should be present in the same directory of this code.
 p.connect(p.GUI)
 p.loadURDF(os.path.join(pybullet_data.getDataPath(), "plane.urdf"), 0, 0, 0)
 orn = p.getQuaternionFromEuler([0, 0, 0])
@@ -14,8 +14,8 @@ p.createConstraint(parentBodyUniqueId=robot, parentLinkIndex=0, childBodyUniqueI
                    parentFramePosition=[0, 0, 0], childFramePosition=[0, 0, 0])
 p.setGravity(0, 0, -10)
 
-l1 = 1
-l2 = 1
+l1 = 1 # length of link-1, from urdf
+l2 = 1 # lenght of link-2, from urdf
 
 def Inverse_kinematics(target):
     # Gives the corresponding angles for given y and z cordinates.
