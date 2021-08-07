@@ -6,8 +6,11 @@
 * Positioning a gripper at a place in space. 
 * Designing a mechanism that can move a tool from point A to point B. 
 * or Predicting whether a robot's motion would collide with obstacles.
-
-![Gif](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/04490c17c539d3e32fb53a4af169a531/large.gif)
+<div align = "center">
+  
+  ![Gif](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/ecb2e695cc6aaa8f1de0fcc5030a6ae6/large.gif)
+  
+</div>  
 
 # What we like to know?
 
@@ -25,8 +28,11 @@ This also gives rise to the problem that is the inverse in nature. Hence, in a n
 * Given a value, the end effector target position, what will by corresponding joint angles be to reach such a configuration? - answered by ***Inverse Kinematics***
   
 ## *Forward Kinematics* and *Inverse Kinematics* are the tools, we'll use to tackle these problems.
-
-![image](https://www.mathworks.com/discovery/inverse-kinematics/_jcr_content/mainParsys/image.adapt.full.medium.jpg/1623833848387.jpg)
+<div align = "center">
+  
+  ![image](https://www.mathworks.com/discovery/inverse-kinematics/_jcr_content/mainParsys/image.adapt.full.medium.jpg/1623833848387.jpg)
+  
+</div>  
 
 # Forward Kinematics
 
@@ -36,7 +42,11 @@ The forward kinematics is an “easy” problem. This means that for each set of
 
 For a more in-depth mathematical perspective, you can check out this video, which solves the Forward Kinematics for a 3-DOF Robot Arm
 
-[![Trigonometry: Forward Kinematics Example by Mr. Kruger's Mathematics](https://img.youtube.com/vi/NRgNDlVtmz0/0.jpg)](https://www.youtube.com/watch?v=NRgNDlVtmz0)
+<div align = "center">
+
+  [![Trigonometry: Forward Kinematics Example by Mr. Kruger's Mathematics](https://img.youtube.com/vi/NRgNDlVtmz0/0.jpg)](https://www.youtube.com/watch?v=NRgNDlVtmz0)
+
+</div>
 
 ## Task:
 
@@ -53,21 +63,33 @@ For a more in-depth mathematical perspective, you can check out this video, whic
 # Inverse Kinematics
 
 ### ***Inverse kinematics*** is just opposite to forward kinematics. It refers to process of obtaining joint angles from known coordinates of end effector. 
+<div align = "center">
+  
+  ![](https://gblobscdn.gitbook.com/assets%2F-M94B98WGo5doV6qgu8i%2F-MA1hvnJK_Pp1iSD8owY%2F-MA1xMW9CHZ1IkV1D99S%2FFK.gif?alt=media&token=97ffffa9-4b77-4e1e-9f2b-c1307b5cf78a)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M94B98WGo5doV6qgu8i%2F-MA1hvnJK_Pp1iSD8owY%2F-MA1xMW9CHZ1IkV1D99S%2FFK.gif?alt=media&token=97ffffa9-4b77-4e1e-9f2b-c1307b5cf78a)
+</div>
 
 It is in general very difficult to solve, and you may find that there may be ***no solution, one single solution or two solutions for the corresponding inverse kinematics***, but it has a lot to offer, once you get the solutions. It is often used for determining the optimum trajectory, motion planning, obstacle avoidance etc.
 
 ### You can refer to this video, to get a hands-on mathematical perspective on Inverse Kinematics for a 2-DOF Robot Arm.
-[![Inverse kinematics for a 2-joint robot arm using geometry](https://img.youtube.com/vi/IKOGwoJ2HLk/0.jpg)](https://www.youtube.com/watch?v=IKOGwoJ2HLk)
+<div align = "center">
+  
+   [![Inverse kinematics for a 2-joint robot arm using geometry](https://img.youtube.com/vi/IKOGwoJ2HLk/0.jpg)](https://www.youtube.com/watch?v=IKOGwoJ2HLk)
 
+</div>
 If you are bored and frustrated by all the math, equations, triangles and stuff. I'll suggest you to watch this video, where all the math and equations comes alive into action and creates a masterpiece. (I'll also recommend to follow this channel, if you are one of those people who absolutely love robotics.)
 
-[![Inverse kinematics Demo](https://img.youtube.com/vi/IN8tjTk8ExI/0.jpg)](https://www.youtube.com/watch?v=IN8tjTk8ExI)
+<div align = "center">
+  
+  [![Inverse kinematics Demo](https://img.youtube.com/vi/IN8tjTk8ExI/0.jpg)](https://www.youtube.com/watch?v=IN8tjTk8ExI)
 
+</div>
 Want to see something even more fascinating? Check this out !
+<div align = "center">
 
-[![Inverse kinematics Demo](https://img.youtube.com/vi/lv6op2HHIuM/0.jpg)](https://www.youtube.com/watch?v=lv6op2HHIuM)
+  [![Inverse kinematics Demo](https://img.youtube.com/vi/lv6op2HHIuM/0.jpg)](https://www.youtube.com/watch?v=lv6op2HHIuM)
+
+</div>
 
 ### ***All hail Inverse Kinematics !***
 
