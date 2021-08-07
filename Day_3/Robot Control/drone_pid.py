@@ -28,6 +28,7 @@ import time
 import math
 import cv2
 
+
 p_id = p.connect(p.GUI)               #Loading the simulation
 p.setGravity(0, 0, -10)               #Setting the gravity
 
@@ -61,12 +62,12 @@ desired_state = 3             #This is the desired state that we want the drone 
 
 t=0
 while(True):
-    if t == 0:
-        p.configureDebugVisualizer(p.COV_ENABLE_GUI,0)
-        p.resetDebugVisualizerCamera(cameraDistance=3.5,
-                                    cameraYaw= 0,
-                                    cameraPitch= 0,
-                                    cameraTargetPosition = [0.0,0.0,desired_state] )
+    # if t == 0:
+    #     p.configureDebugVisualizer(p.COV_ENABLE_GUI,0)
+    #     p.resetDebugVisualizerCamera(cameraDistance=3.5,
+    #                                 cameraYaw= 0,
+    #                                 cameraPitch= 0,
+    #                                 cameraTargetPosition = [0.0,0.0,desired_state] )
     k=cv2.waitKey(1)        #This is written to make the taskbars operate in real time
     keycode = p.getKeyboardEvents()       #Getting the keyboard events through PyBullet
     if keycode.get(p.B3G_RETURN) == 1:        #If ENTER key is pressed then the simulation executes
@@ -97,15 +98,15 @@ while(True):
             '''
 
             k=cv2.waitKey(1)       #This is necessary to keep the track-bars active
-            t+=0.01                 #Keeping track of time into the simulation
+            t+=1./240.#0.01                 #Keeping track of time into the simulation
             state = p.getBasePositionAndOrientation(drone)[0][2]        #Getting the state, i.e. the current altitude of the drone
             error = state - desired_state                             #The error is the difference between current state and desired state
             derivative = error - prev_error             #The D term is the difference in current error and prev error, As the simulation is called at regular intervals, we don't divide by time. It gives us the rate at which the error is changing.
             prev_error = error                      #Updating the prev error for using in next loop
             if(p.getBaseVelocity(drone)[0][2]<0.01):        #Integrating/Summing the error for I gain only when drone is almost stationary, as we only want the steady state error for integration term.
-                integral += error           #Summing up the error
+                integral += I * error           #Summing up the error   #multiplying error later is not good multiply during summation
 
-            pid = P * error + D * derivative + I * integral    #Calculating the upthrust to be given to the drone by multiplying error with different gains and adding
+            pid = P * error + D * derivative + integral #I * integral    #Calculating the upthrust to be given to the drone by multiplying error with different gains and adding
             action = -pid                                   #Action is the negative of our gain , This is experimental
             print("The height is {}".format(state))
 

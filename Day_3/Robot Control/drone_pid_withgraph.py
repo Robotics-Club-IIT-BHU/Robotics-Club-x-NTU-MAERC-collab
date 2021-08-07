@@ -113,7 +113,7 @@ while(True):
                 ax = np.append(ax,[ts/240])
                 ay = np.append(ay,[state])
             ts += 1
-            # time.sleep(1./240.)
+            time.sleep(1./240.)
             keycode = p.getKeyboardEvents()       #Getting the keyboard events through PyBullet
             if keycode.get(p.B3G_RETURN) == 1 or (ts/240) == 30:    #Reseting the simulation when Enter is pressed
                 print("Episode finished after {} timesteps".format(t+1))
