@@ -50,7 +50,7 @@ For a more in-depth mathematical perspective, you can check out this video, whic
 
 ## Task:
 
-* Try the implementaion of a 2-DOF Robotic Arm on your own, using Pybullet. I have attached a helper code and the urdf, but only seek it just in case you are completely stuck.
+* Try the implementaion of a 2-DOF Robotic Arm on your own, using Pybullet. I have attached a helper code and the URDF, but only seek it just in case you are completely stuck.
 
 ## Optional Task:
 
