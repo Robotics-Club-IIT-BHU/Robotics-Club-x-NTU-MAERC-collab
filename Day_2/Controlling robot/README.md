@@ -79,8 +79,30 @@ The function(s) that enables you to design such forces are designed below:<p ali
 # Constraints:
 Constraints limit the movement of two rigid bodies in relation to each other, or the movement of one body in relation to the global world space. Another often used term word for constraints is joint.There might be scenarios where we need to apply constraints in between the robot and a unit in the environment and simulate such constrained conditions.<p align="center"/>
 <img src="https://forum-files-playcanvas-com.s3.dualstack.eu-west-1.amazonaws.com/original/2X/a/a9f5d9f46af0846fbee00c8e73f86885d907a403.gif">
+<p/>
+
+We create bodies as a tree-structures without loops. The [createConstraint](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/preview#heading=h.fq749wu22x4c) allows us to connect specific links of bodies to close those loops.
+Like joints we have different types of constraints -
+* Fixed constraint
+* Point2point constraint
+* Prismatic constraint
+* Hinge constraint
+* Gear constraint
+
+##### As a visual understanding aid you can refer [here](https://www.youtube.com/watch?v=yR6xc2XqCAE&list=PLbyYlLq2pvAZx37qDnsDBcCw-1CxVVU26&index=5&t=338s) for understanding different types of constraints.
+
+After creating constraint you can also customize them and and get their Pybullet state using the following functions- <p align="center"/>
+[changeConstraint](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/preview#heading=h.fq749wu22x4c)<br />
+[getNumConstraints](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/preview#heading=h.hsbb69vwmyl0)<br />
+[getConstraintUniqueId](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/preview#heading=h.hsbb69vwmyl0)<br />
+[getConstraintInfo/State](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/preview#heading=h.zjkkp84f52f)<br />
+
+Now you are well equipped to take the control. Keep referring the [document](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/preview#) for future case tasks .<br />
+
+Here is the link to the workshop presentation [Day_2](https://docs.google.com/presentation/d/1pYUm7eOMbzRRKaEr5AB4gpxgsPZaO_GFCeGwOmyuUXc/edit?usp=sharing)<p align="center"/>
+![imagination-spongebob](https://user-images.githubusercontent.com/88087656/128607193-1bafea42-3f01-4620-96d4-74e54c2f25ea.png)
 </p>
-We create bodies as a tree-structures without loops. 
+
 
 
 
