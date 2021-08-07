@@ -50,6 +50,38 @@ You can refer to the demo code attached to understand this mode better.
 Here joint motor is on or enabled while the control loop is disabled. You can feed in the desired velocity along with the torque limits .When that maximum torque/force is very high, the target velocity is instantaneously reached and the joint operates in velocity control, otherwise it operates at the specified torque/force until the desired target velocity is reached. <p align="center">
 <img src="https://user-images.githubusercontent.com/88087656/128541414-9432d1c0-e031-44f0-b544-d6da7edca863.gif" width="350" height="300"/>
  <p />
+ 
+ Now try to perform velocity control over a husky. You can take reference of the helper code attached in case you get stuck.
+ 
+ ##### TORQUE_CONTROL
+ Torque control mode makes motor a torque or force transducer.You can set the desired torque/force to be applied on a joint at each simulation step. Be cautious with this control since  simulating the correct forces relies on very accurate URDF/SDF file parameters and system identification (correct masses, inertias, center of mass location, joint friction etc).
+ 
+ For an in depth understanding of these modes you can refer [here](https://www.coppeliarobotics.com/helpFiles/en/jointDescription.htm)
+ 
+ ### Do we need to call the function multiple times??
+ 
+ Definitely not! For a multi-joint system we can use [setJointMotorControlArray](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/preview#heading=h.jxof6bt5vhut) which would reduce the calling overhead by performing control over multiple joints together.<p align="center"/>
+<img src="https://user-images.githubusercontent.com/88087656/128605124-57764516-63d4-4f5c-b15b-d1e1ddc8ad06.jpg" width="350" height="300"/>
+</p>
+
+# External Force/Torque:
+Q.Why do we really need to simulate a external force on the robot ??
+
+Ans: To kick robots and bully them and have fun !! why,else ?:-)<p align="center"/>
+![](https://camo.githubusercontent.com/78e5c9e3a709d1dc825ed5153602d8f128422aa924b475175bbf54610761d3e0/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f3372675842494e65706165715372314f664b2f67697068792e676966)
+</p>
+Well on a serious note,one of the key challenge to overcome in transfering a robot from simulation to reality is the undezireable and unpredictable disturbance caused in the real world.The source of these disturbances that hinders the motion of our robot is generally a force or torque.Thus, as robotic professionals it is important that we make robot controllers that are robust,agile and versatile.So, we should learn to simulate such undezirable conditions in our simulations aswell.
+
+The function(s) that enables you to design such forces are designed below:<p align="center"/>
+[applyExternalForce/Torque](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/preview#heading=h.mq73m9o2gcpy)
+</p>
+
+# Constraints:
+Constraints limit the movement of two rigid bodies in relation to each other, or the movement of one body in relation to the global world space. Another often used term word for constraints is joint.There might be scenarios where we need to apply constraints in between the robot and a unit in the environment and simulate such constrained conditions.<p align="center"/>
+<img src="https://forum-files-playcanvas-com.s3.dualstack.eu-west-1.amazonaws.com/original/2X/a/a9f5d9f46af0846fbee00c8e73f86885d907a403.gif">
+</p>
+We create bodies as a tree-structures without loops. 
+
 
 
 
