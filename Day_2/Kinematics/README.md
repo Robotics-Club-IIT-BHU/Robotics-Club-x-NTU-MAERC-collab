@@ -58,7 +58,7 @@ For a more in-depth mathematical perspective, you can check out this video, whic
 
 ## Note:
 
-* To be completely honest, I am obliged to inform that this is not the full picture, truth be told, you should be aware of the complications in higher dimensional robots, ***DH parameters, Transformation and Rotation Matrix-based approaches and other sophisticated formulations*** but this camp is motivated towards giving you an head start with all the wholesome fundamental concepts. So,it is essentially out of the scope of this course. You can always find good resources on the web, just in case you want to dive deeper.
+* To be completely honest, I am obliged to inform that this is not the full picture, truth be told, you should be aware of the complications in higher dimensional robots, ***Denavit-Hartenberg procedure, Transformation and Rotation Matrix-based approaches and other sophisticated formulations*** but this camp is motivated towards giving you an head start with all the wholesome fundamental concepts. So,it is essentially out of the scope of this course. You can always find good resources on the web, just in case you want to dive deeper.
 
 # Inverse Kinematics
 
