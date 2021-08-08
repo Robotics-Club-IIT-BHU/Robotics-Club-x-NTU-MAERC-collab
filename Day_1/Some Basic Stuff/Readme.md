@@ -111,6 +111,7 @@ Rather than we explaining something that is **"simply complex"**, we leave it to
 
 Now, for basic information about pybullet and how to spawn urdf please visit [User manual](https://usermanual.wiki/Document/pybullet20quickstart20guide.479068914/html) [This will be the most important core source of your information through out the camp]
 
+For detailed explanation of urdf you can watch [URDF Video](https://youtu.be/g9WHxOpAUns)
 
 For visualization of euler,quaternions and gimbal lock visit [Angle visualization]( https://quaternions.online/ ) Note:for gimbal lock put y angle under euler to 90 degree
 
