@@ -23,4 +23,4 @@ You can look out to these parameters by [getDynamicsInfo](https://docs.google.co
 
 For changing these parameters, refer [changeDynamics](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/edit)
 
-
+**To get access to slides, click [here](https://docs.google.com/presentation/d/1vGKwD2EJSueq33uvhZ20sk-TNXI8er3x4b5begjo1JM/edit?usp=sharing)**
