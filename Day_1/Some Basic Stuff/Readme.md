@@ -56,3 +56,13 @@ Since, in this camp, we try exploring a beginner friendly approach towards robot
 
    1. [Robot Geometry in URDF](http://wiki.ros.org/urdf/Tutorials/Create%20your%20own%20urdf%20file)
    2. [Building a Visual Robot URDF](http://wiki.ros.org/urdf/Tutorials/Building%20a%20Visual%20Robot%20Model%20with%20URDF%20from%20Scratch)
+
+Now, for basic information about pybullet and how to spawn urdf please visit https://usermanual.wiki/Document/pybullet20quickstart20guide.479068914/html
+For visualization of euler,quaternions and gimbal lock visit https://quaternions.online/  (for gimbal lock put y angle under euler to 90 degree)
+Foe visualizing your urdf on net visit https://mymodelrobot.appspot.com/5629499534213120
+
+
+
+
+
+
