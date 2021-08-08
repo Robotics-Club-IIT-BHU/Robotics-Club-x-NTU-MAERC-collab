@@ -1,4 +1,4 @@
-# Subpart 25
+# Some Basic Stuff
 
 Now that your PyBullet is running, its time to define or rather redefine what a robot is !!!
 <p align="center">
@@ -50,8 +50,8 @@ Since, in this camp, we try exploring a beginner friendly approach towards robot
 ## Example Implementation:
    We have added a example urdf file of a **Visual_Robot** code and a pybullet code to visualize it.You can directly download the two files and try experimenting with it.Make sure to add the path of the urdf file in the visualizer file if both the files are not present in the same folder.
 	
-1. Example urdf file of a R2D2 robot:-[sample.urdf](https://github.com/NiranthS/Pybullet-Camp/blob/master/Part1/Subpart%202/sample.urdf)
-2. PyBullet code to visualize any urdf file:-[visualizer.py](https://github.com/NiranthS/Pybullet-Camp/blob/master/Part1/Subpart%202/visualizer.py)
+1. Example urdf file of a R2D2 robot:-[2_R_robot.urdf](https://github.com/Robotics-Club-IIT-BHU/Robotics-Club-x-NTU-MAERC-collab/blob/main/Day_1/Some%20Basic%20Stuff/2_R_robot.urdf)
+2. PyBullet code to visualize any urdf file:-[2_R_robot.py](https://github.com/Robotics-Club-IIT-BHU/Robotics-Club-x-NTU-MAERC-collab/blob/main/Day_1/Some%20Basic%20Stuff/2_R_robot.py)
 	
 
    1. [Robot Geometry in URDF](http://wiki.ros.org/urdf/Tutorials/Create%20your%20own%20urdf%20file)
