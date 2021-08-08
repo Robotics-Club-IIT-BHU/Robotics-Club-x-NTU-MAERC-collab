@@ -1,0 +1,63 @@
+  
+<robot name="2_R_robot">
+ <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+ 
+    <link name="Base">
+      <visual>
+      <geometry>
+         <cylinder length="0.01" radius="0.01"/>
+      </geometry>
+      
+      <material name="blue"/>
+    </visual>
+
+    </link>
+    
+    <link name="linka">
+          
+  <visual>
+      <geometry>
+        
+         <cylinder length="1" radius="0.05"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0.5"/>
+      <material name="blue"/>
+    </visual>
+
+    </link>
+
+    <link name="linkb"><visual>
+      <geometry>
+         <cylinder length="1" radius="0.05"/>
+      </geometry>
+      <origin xyz="0 0 0.5" rpy="0 0 0"/>
+      <material name="blue"/>
+    </visual>
+        
+    </link>
+    
+        <joint name="Revolute_joint_1" type="revolute">
+<limit effort="50" velocity="1.0" lower="-3" upper="3" />
+       
+<parent link="Base"/>
+  <child link="linka"/>
+
+
+     
+
+    </joint>
+
+    <joint name="Revolute_joint_2" type="revolute">
+        <axis xyz="1 0 0"/>
+<limit effort="50" velocity="1.0" lower="-3" upper="3" />
+<parent link="linka"/>
+  <child link="linkb"/>
+      <origin xyz="0 0 1"/>
+      
+
+    </joint>
+    
+   
+</robot>
