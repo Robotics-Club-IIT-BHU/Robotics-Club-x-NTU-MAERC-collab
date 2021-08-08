@@ -57,13 +57,69 @@ Since, in this camp, we try exploring a beginner friendly approach towards robot
    1. [Robot Geometry in URDF](http://wiki.ros.org/urdf/Tutorials/Create%20your%20own%20urdf%20file)
    2. [Building a Visual Robot URDF](http://wiki.ros.org/urdf/Tutorials/Building%20a%20Visual%20Robot%20Model%20with%20URDF%20from%20Scratch)
 
-Now, for basic information about pybullet and how to spawn urdf please visit [User manual](https://usermanual.wiki/Document/pybullet20quickstart20guide.479068914/html)
+## Robot Configuration/State:
+  It becomes crucial to represent the robot in 3d space in an effective way as it greatly determines the design and performance of our controller and other higher-level control modules of the robot. 
+  
+**Configuration Space**: The configuration of a robot is a complete specification of the position of every point of the robot.  The n-dimensional space containing all possible configurations of the robot is called the configuration space (C-space). The configuration of a robot is represented by a point in its C-space.\
+
+**Task Space**: Task space (or Cartesian space) is defined by the position and orientation of the end effector of a robot. Joint space is defined by a vector whose components are the translational and angular displacements of each joint of a robotic link.
+
+for eg,
+
+<p align="center">
+ <img  width="600" height="350" src=https://github.com/NiranthS/Robo-Summer-Camp-20/blob/master/Part2/Subpart%201/c_space.jpg>
+</p>
+
+## Robot orientation and position (for mobile robot):
+Another important information about a robot or specifically a **mobile robot** is its absolute **position and orientation** in the simulation world. In real-world terms, it is something like the GPS position, map cordinates, compass readings. In a nutshell, we need data to get a sense of position and localization. The term orientation, however, comes into the picture when we consider **frame** based tracking of the space over position-only 3d space. Thus, if we consider a global frame with the i,j, and k directions defined, then the amount of **inclination** about all the axes (_ie. rotation ) of a **local frame** taken on the robot gives its orientation.
+
+## Robot Orientation Formats:
+
+**Euler angles:** 
+
+This the most intuitive and straight forward approach towards accounting the changes in orientation with respect to a global frame.
+1. [Check this video for a better picture](https://www.youtube.com/watch?v=q0jgqeS_ACM)
+2. Though these angles might look like they serve the purpose, there is a very serious problem that they hold called **gimbal lock**. The solution to this will be the next type of orientation description. More details about the problem are in the links below,
+   1. [Axis Angles, Euler Angles and Gimbal Lock](https://youtu.be/Mm8tzzfy1Uw)
+   2. [Gimbal lock](https://www.youtube.com/watch?v=zc8b2Jo7mno)
+   3. [Apollo 13 and gimbal lock](https://www.youtube.com/watch?v=OmCzZ-D8Wdk)
+  
+**Quaternions:**
+
+_Q.Well, what could be an effective soltuion for a simple angle tracking problem?_ 
+
+_You are absolutely right if complex numbers were your answer !!_
+
+<p align="center">
+<img  width="300" height="300" src="https://media2.giphy.com/media/Cn76Lj0aEw1dm/giphy.gif"><br>
+</p>
+
+
+We do hear you screaming that, but hold on...Quaternion is perhaps one of the most beautiful formulations in geometry.
+Rather than we explaining something that is **"simply complex"**, we leave it to this beautiful work from the channel 3Blue1Brown.
+
+<div align="center">
+
+[Visualizing quaternions (4d numbers) with stereographic projection](https://www.youtube.com/watch?v=d4EgbgTm0Bg)
+
+</div>
+<p align="center">
+<img src="https://github.com/NiranthS/Robo-Summer-Camp-20/blob/master/Part2/Subpart%202/quat1.jpg"><br>
+</p>
+
+
+
+Now, for basic information about pybullet and how to spawn urdf please visit [User manual](https://usermanual.wiki/Document/pybullet20quickstart20guide.479068914/html) [This will be the most important core source of your information through out the camp]
+
 
 For visualization of euler,quaternions and gimbal lock visit [Angle visualization]( https://quaternions.online/ ) Note:for gimbal lock put y angle under euler to 90 degree
 
 For visualizing your urdf on net visit  [Visualize](https://mymodelrobot.appspot.com/5629499534213120)
 
 For slides of this topic visit [slides](https://docs.google.com/presentation/d/114ekhkQ5Lh_5CDKcpMY0d9-vZYP8y4QwgcDUFl1UFM0/edit#slide=id.gb19371b85b_0_32020)
+
+All the urdf and codes used in presentation are added in repository download them play with them explore!!
+
 
 
 
