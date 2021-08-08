@@ -56,5 +56,3 @@ Since, in this camp, we try exploring a beginner friendly approach towards robot
 
    1. [Robot Geometry in URDF](http://wiki.ros.org/urdf/Tutorials/Create%20your%20own%20urdf%20file)
    2. [Building a Visual Robot URDF](http://wiki.ros.org/urdf/Tutorials/Building%20a%20Visual%20Robot%20Model%20with%20URDF%20from%20Scratch)
-4. The task aims to give you a grasp of what a URDF is and **not** to get into every nitty-gritty detail and mastering URDF's. Hence,an intutive understanding and the "how to use ?" of URDF's for the upcoming parts is the main idea.  
-
