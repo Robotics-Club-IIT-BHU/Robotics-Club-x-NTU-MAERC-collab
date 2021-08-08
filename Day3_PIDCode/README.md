@@ -8,7 +8,7 @@
  <i>Great that you understood all</i><br> 
 </p>
 
-#### Here is the link to the presentation - [Pid code](https://docs.google.com/presentation/d/1dl2l8goXGt8gAWrh70IBe66mzWzi2OMd6TNtHwAumVg/edit?usp=sharing)
+#### Here is the link to the presentation - [Pid code](https://docs.google.com/presentation/d/17YfKPhv_uMvD9R8D_MHTj4MmfPZunx2cIbABcZJz-Fs/edit?usp=sharing)
 
 # Autonomous Car Challenge
 
