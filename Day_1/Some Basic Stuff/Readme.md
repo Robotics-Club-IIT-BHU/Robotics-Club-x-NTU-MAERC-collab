@@ -107,12 +107,6 @@ Rather than we explaining something that is **"simply complex"**, we leave it to
 <img src="https://github.com/NiranthS/Robo-Summer-Camp-20/blob/master/Part2/Subpart%202/quat1.jpg"><br>
 </p>
 
-<p align="center">
-<img src=""><br>
-</p>
-
-
-
 
 Now, for basic information about pybullet and how to spawn urdf please visit [User manual](https://usermanual.wiki/Document/pybullet20quickstart20guide.479068914/html) [This will be the most important core source of your information through out the camp]
 
@@ -124,8 +118,11 @@ For visualizing your urdf on net visit  [Visualize](https://mymodelrobot.appspot
 
 For slides of this topic visit [slides](https://docs.google.com/presentation/d/114ekhkQ5Lh_5CDKcpMY0d9-vZYP8y4QwgcDUFl1UFM0/edit#slide=id.gb19371b85b_0_32020)
 
-All the urdf and codes used in presentation are added in repository download them play with them explore!!
+All the urdf and codes used in presentation are added in repository,go through other links also,download files  play with them explore.More you try and test more you learn!!
 
+<p align="center">
+<img src="https://github.com/Robotics-Club-IIT-BHU/Robotics-Club-x-NTU-MAERC-collab/blob/main/Day_1/Some%20Basic%20Stuff/image.jpeg"><br>
+</p>
 
 
 
