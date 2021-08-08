@@ -107,6 +107,11 @@ Rather than we explaining something that is **"simply complex"**, we leave it to
 <img src="https://github.com/NiranthS/Robo-Summer-Camp-20/blob/master/Part2/Subpart%202/quat1.jpg"><br>
 </p>
 
+<p align="center">
+<img src=""><br>
+</p>
+
+
 
 
 Now, for basic information about pybullet and how to spawn urdf please visit [User manual](https://usermanual.wiki/Document/pybullet20quickstart20guide.479068914/html) [This will be the most important core source of your information through out the camp]
