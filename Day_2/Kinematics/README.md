@@ -117,8 +117,9 @@ As you can imagine, as our robots get much complicated, the equations get tricky
 
 # Very well,
 
-You are now equipped with a good amount of knowledge in the very ***fundamentals of Robotics.*** Ofcourse, things don't end here. There are lot more things to explore, learn and implement. There are resources everywhere around the web, that can help you achieve this. Our aim was to get you started, and lay down the foundation on which you can further build upon. 
+***Here's the link for the presentation, if you want to revisit some of the ideas : [Pybullet-Workshop-Day_2](https://docs.google.com/presentation/d/18tvmY9KVb5HuPlCss2nQbipHd_KSeYrAJLTOwBHKItU/edit?usp=sharing)***
 
+You are now equipped with a good amount of knowledge in the very ***fundamentals of Robotics.*** Ofcourse, things don't end here. There are lot more things to explore, learn and implement. There are resources everywhere around the web, that can help you achieve this. Our aim was to get you started, and lay down the foundation on which you can further build upon. 
 
 ### ***As you progress, Kinematics and Robotics can get you from this,***
 <div align="center">
