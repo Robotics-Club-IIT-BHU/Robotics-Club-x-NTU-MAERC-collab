@@ -1,6 +1,6 @@
 ## PID CONTROL CODE FOR LINE FOLLOWING BOT
 
-### We congaratulate you that you attended the workshop and learnt some of the awesome concepts of PID
+### We congratulate you that you attended the workshop and learnt some of the awesome concepts of PID
 ***
 <p align="center">
  <img  width="400" height="400" src="https://sayingimages.com/wp-content/uploads/expert-level-good-job-meme.jpg">
