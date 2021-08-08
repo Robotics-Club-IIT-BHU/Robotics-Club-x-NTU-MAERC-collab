@@ -1,0 +1,111 @@
+<robot name="2R_robot">
+    <!-- The material part is not 
+required.. its just for better
+visualization.-->
+    <material name="blue">
+        <color rgba="0 0 0.8 1"/>
+    </material>
+    <material name="black">
+        <color rgba="0 0 0 1"/>
+    </material>
+    <!--
+* They are free to pick any dimensions
+  but the origin of joint and links 
+  should have propper values accordingly.
+  Let
+  l1, be the length of the first link
+  l2, be the length of the second link
+  l x b x h be the base dimentions
+  the the values should be filled below as 
+  commented
+* I have used cylinder here for the link shape
+  if they have use box that is also fine but then
+  l1 , l2 will be the longest side, i suppose
+* dc - dont care
+-->
+    <link name="base_link">
+        <inertial>
+            <origin xyz="8e-05 0.02446 -0.00146" rpy="0 0 0"/>
+            <mass value="1000000"/>
+            <inertia ixx="0.00196" ixy="0" ixz="0" iyy="0.00133" iyz="-2e-05" izz="0.0023"/>
+        </inertial>
+        <visual>
+            <geometry>
+                <box size="0.7 0.7 0.10"/>
+                <!-- let base dimensions be l x b x h-->
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0 0.00015 -0.00044" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.7 0.7 0.10"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="link1">
+        <visual>
+            <geometry>
+                <cylinder length="1" radius="0.05"/>
+                <!--length = l1-->
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 0.55"/>
+            <!-- z = (l1 / 2) -->
+            <material name="white"/>
+        </visual>
+    </link>
+    <joint name="joint1" type="revolute">
+        <parent link="base_link"/>
+        <child link="link1"/>
+        <origin xyz="0 0 0.05"/>
+        <!--z = h/2-->
+        <limit effort="200" lower="-3.14" upper="3.14" velocity="1.0"/>
+        <!-- dc -->
+        <axis xyz= "1 0 0"/>
+        <!-- can be either "1 0 0" or "0 1 0" and the same should be in joint 2 -->
+    </joint>
+    <link name="link2">
+        <visual>
+            <geometry>
+                <cylinder length="1" radius="0.05"/>
+                <!--length = l2-->
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 0.5"/>
+            <!-- z = (l2 / 2) -->
+            <material name="blue"/>
+        </visual>
+    </link>
+    <joint name="joint2" type="revolute">
+        <parent link="link1"/>
+        <child link="link2"/>
+        <origin xyz="0 0 1.05"/>
+        <!--z = l1 + h/2-->
+        <limit effort="200" lower="-3.14" upper="3.14" velocity="1.0"/>
+        <!-- dc -->
+        <axis xyz= "1 0 0"/>
+        <!-- can be either "1 0 0" or "0 1 0" and the same should be in joint 1 -->
+    </joint>
+    <link name="link3">
+        <inertial>
+            <origin xyz="8e-05 0.02446 -0.00146" rpy="0 0 0"/>
+            <mass value="0.001"/>
+            <inertia ixx="0.00196" ixy="0" ixz="0" iyy="0.00133" iyz="-2e-05" izz="0.0023"/>
+        </inertial>
+        <visual>
+            <geometry>
+                <sphere radius="0.05"/>
+                <!--length = l2-->
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 -0.05"/>
+            <!-- z = (l2 / 2) -->
+            <material name="black"/>
+        </visual>
+    </link>
+    <joint name="joint3" type="fixed">
+        <parent link="link2"/>
+        <child link="link3"/>
+        <origin xyz="0 0 1.05"/>
+        <!--z = l1 + h/2-->
+        <axis xyz= "0 0 0"/>
+        <!-- can be either "1 0 0" or "0 1 0" and the same should be in joint 1 -->
+    </joint>
+</robot>
