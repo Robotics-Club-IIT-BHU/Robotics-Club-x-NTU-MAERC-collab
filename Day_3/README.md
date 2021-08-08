@@ -5,7 +5,7 @@
 Robot dynamics is concerned with the relationship between the forces acting on a robot mechanism and the accelerations they produce. Typically, the robot mechanism is modelled as a rigid-body system, in which case robot dynamics is the application of rigid-body dynamics to robots.
 
 <p align="center">
- <gif  width="400" height="400" src="https://i1.wp.com/metro.co.uk/wp-content/uploads/2020/12/robodance-2496.gif?w=440&h=248&crop=1&quality=90&strip=all&zoom=1&ssl=1">
+ <img  width="400" height="400" src="https://i1.wp.com/metro.co.uk/wp-content/uploads/2020/12/robodance-2496.gif?w=440&h=248&crop=1&quality=90&strip=all&zoom=1&ssl=1">
  <p align="center">
 </p>
 
