@@ -62,14 +62,21 @@ Since, in this camp, we try exploring a beginner friendly approach towards robot
   
 **Configuration Space**: The configuration of a robot is a complete specification of the position of every point of the robot.  The n-dimensional space containing all possible configurations of the robot is called the configuration space (C-space). The configuration of a robot is represented by a point in its C-space.\
 
-**Task Space**: Task space (or Cartesian space) is defined by the position and orientation of the end effector of a robot. Joint space is defined by a vector whose components are the translational and angular displacements of each joint of a robotic link.
-
 for eg,
 
 <p align="center">
  <img  width="600" height="350" src=https://github.com/NiranthS/Robo-Summer-Camp-20/blob/master/Part2/Subpart%201/c_space.jpg>
 </p>
 
+**Task Space**: Task space (or Cartesian space) is defined by the position and orientation of the end effector of a robot. Joint space is defined by a vector whose components are the translational and angular displacements of each joint of a robotic link.
+
+for eg,
+
+<p align="center">
+ <img  width="600" height="350" src=https://github.com/Robotics-Club-IIT-BHU/Robotics-Club-x-NTU-MAERC-collab/blob/main/Day_1/Some%20Basic%20Stuff/image2.jpeg>
+</p>
+
+As you can see the points where tip of arm can reach come under task space
 ## Robot orientation and position (for mobile robot):
 Another important information about a robot or specifically a **mobile robot** is its absolute **position and orientation** in the simulation world. In real-world terms, it is something like the GPS position, map cordinates, compass readings. In a nutshell, we need data to get a sense of position and localization. The term orientation, however, comes into the picture when we consider **frame** based tracking of the space over position-only 3d space. Thus, if we consider a global frame with the i,j, and k directions defined, then the amount of **inclination** about all the axes (_ie. rotation ) of a **local frame** taken on the robot gives its orientation.
 
