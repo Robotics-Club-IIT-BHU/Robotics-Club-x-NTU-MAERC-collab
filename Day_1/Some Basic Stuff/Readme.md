@@ -63,6 +63,10 @@ For visualization of euler,quaternions and gimbal lock visit [Angle visualizatio
 
 For visualizing your urdf on net visit  [Visualize](https://mymodelrobot.appspot.com/5629499534213120)
 
+For slides of this topic visit [slides](https://docs.google.com/presentation/d/114ekhkQ5Lh_5CDKcpMY0d9-vZYP8y4QwgcDUFl1UFM0/edit#slide=id.gb19371b85b_0_32020)
+
+
+
 
 
 
