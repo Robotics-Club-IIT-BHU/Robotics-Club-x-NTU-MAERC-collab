@@ -21,7 +21,7 @@ making silly mistakes and getting frustrated for the entire day.***
 ## Description
 
 * **A car is loaded onto an arena. You have to develop a PID controller for that car such that it runs along the circular track.**
-* **The trajectory of the track will be a circle, given by x^2 + y^2 = 3^2**
+* **The trajectory of the track will be a circle, given by x^2 + y^2 = 3^2**Z
 * **Calibrate the PID gains such that car follows the track without much disturbance.**
 * **A template codee has been given, where you have to implement the task. The code contains detailed instructions and a few hints to help your way out.**
 
@@ -29,7 +29,7 @@ making silly mistakes and getting frustrated for the entire day.***
 
 ## Submission
 
-![](https://cdn.stackward.com/wp-content/uploads/2016/09/99.jpg)
+![](https://kimchisama.files.wordpress.com/2019/11/1w4ip5.jpg)
 
 * **You will have 1 week to present a working simulation, make sure there are no errors.**
 * **All the details regarding submission of the task, will be informed later.**
