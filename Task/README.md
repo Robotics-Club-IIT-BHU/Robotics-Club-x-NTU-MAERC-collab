@@ -20,18 +20,21 @@ making silly mistakes and getting frustrated for the entire day.***
 
 ## Description
 
-* A car is loaded onto an arena. You have to develop a PID controller for that car such that it runs along the circular track.
-* The trajectory of the track will be a circle, given by x^2 + y^2 = 3^2
-* Calibrate the PID gains such that car follows the track without much disturbance.
-* A code layout has been attached, where you have to implement the task. The code contains detailed descriptions and a few hints to help your way out.
+* **A car is loaded onto an arena. You have to develop a PID controller for that car such that it runs along the circular track.**
+* **The trajectory of the track will be a circle, given by x^2 + y^2 = 3^2**
+* **Calibrate the PID gains such that car follows the track without much disturbance.**
+* **A template codee has been given, where you have to implement the task. The code contains detailed instructions and a few hints to help your way out.**
 
-![ScreenShot](https://raw.github.com/Robotics-Club-IIT-BHU/Robotics-Club-x-NTU-MAERC-collab/main/Task/src/arena.jpg)
+![ScreenShot](https://raw.github.com/Robotics-Club-IIT-BHU/Robotics-Club-x-NTU-MAERC-collab/main/Task/src/arena_pid.jpg)
 
 ## Submission
 
-* You will have 1 week to present a working simulation, make sure there are no errors.
-* All the details regarding submission of the task, will be informed later.
+![](https://cdn.stackward.com/wp-content/uploads/2016/09/99.jpg)
 
+* **You will have 1 week to present a working simulation, make sure there are no errors.**
+* **All the details regarding submission of the task, will be informed later.**
+
+## P.S
 
 ***We want you to understand, that the goal of the task is not to be the most perfectly working model, or getting the highest scores in evaluation. This often leads to either directly copying
 from other resources, or feeling dissapointed with yourself for not reaching anywhere. Instead we want you guys, to have a taste of the action, have fun working out and brainstorming
