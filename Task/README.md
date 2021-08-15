@@ -1,6 +1,6 @@
 # Challenge for the Week !
 
-## All good things come to an end.
+![](https://c8.alamy.com/zooms/9/b4d0345db0da4221aa38e0ebf113186e/2e5ag57.jpg)
 
 ***As they say, all good things come to an end, but importantly you learn and you cherish. We hope it's been an awesome journey for all of you. We certainly had lot of fun teaching you
 guys, all kinds of interesting stuff, and it's always pleasure interacting with you all.***
@@ -16,12 +16,16 @@ making silly mistakes and getting frustrated for the entire day.***
 
 ***We have a simple task put together to test out, everything that you have learned and possibly to learn more.***
 
+![](https://miro.medium.com/max/1232/1*9Z8jsV6Ix9tacGZv4uXLrA.png)
+
 ## Description
 
 * A car is loaded onto an arena. You have to develop a PID controller for that car such that it runs along the circular track.
 * The trajectory of the track will be a circle, given by x^2 + y^2 = 3^2
 * Calibrate the PID gains such that car follows the track without much disturbance.
 * A code layout has been attached, where you have to implement the task. The code contains detailed descriptions and a few hints to help your way out.
+
+![ScreenShot](https://raw.github.com/Robotics-Club-IIT-BHU/Robotics-Club-x-NTU-MAERC-collab/main/Task/src/arena.jpg)
 
 ## Submission
 
