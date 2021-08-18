@@ -77,14 +77,14 @@ It is in general very difficult to solve, and you may find that there may be ***
    [![Inverse kinematics for a 2-joint robot arm using geometry](https://img.youtube.com/vi/IKOGwoJ2HLk/0.jpg)](https://www.youtube.com/watch?v=IKOGwoJ2HLk)
 
 </div>
-If you are bored and frustrated by all the math, equations, triangles and stuff. I'll suggest you to watch this video, where all the math and equations comes alive into action and creates a masterpiece. (I'll also recommend to follow this channel, if you are one of those people who absolutely love robotics.)
+If you are bored and frustrated by all the math, equations, triangles and stuff. I'll suggest you to watch this video, where all the math and equations comes alive into action and creates a masterpiece.
 
 <div align = "center">
   
-  [![Inverse kinematics Demo](https://img.youtube.com/vi/IN8tjTk8ExI/0.jpg)](https://www.youtube.com/watch?v=IN8tjTk8ExI)
+  [![Boston Dynamics](https://img.youtube.com/vi/EezdinoG4mk/0.jpg)](https://www.youtube.com/watch?v=EezdinoG4mk)
 
 </div>
-Want to see something even more fascinating? Check this out !
+Here's one more !
 <div align = "center">
 
   [![Inverse kinematics Demo](https://img.youtube.com/vi/lv6op2HHIuM/0.jpg)](https://www.youtube.com/watch?v=lv6op2HHIuM)
